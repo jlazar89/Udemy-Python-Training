@@ -53,9 +53,8 @@ def partyListMembers():
     # Return that list
     people = input("Enter the Members list separeted by commas :")
     list = people.split(",")
-    memberlist =[]
-    for person in list:
-        memberlist.append(person.strip()) #strip removes white spaces from back and front
+    #strip removes white spaces from back and front
+    memberlist =[person.strip() for person in list]
     return memberlist
 
 def askUser():
