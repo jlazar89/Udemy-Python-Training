@@ -36,7 +36,7 @@ print("Difference " + str(my_lottery_numbers.difference(winning_numbers)))
 
 #########Exercise####
 my_list = [60,30,10]
-my_tuple =(2)
+my_tuple =(102,)
 
 print("Sum of list items " + str(sum(my_list)))
 print("Value of My tuple " + str(my_tuple))
